@@ -16,12 +16,16 @@ Update (3/4/2025): The model now works perfectly except that it won't show conte
 # RAG-Agent(LangGraph)
 
 A RAG Agent model with ability to keep track and adapt to conversation flow, retrieve informatino on documents in the notion database specified above. 
+
 This model has same capabilites as the one above, however, it's able to handle more complex request for information on the database, while also being a chatbot.(shown in code)
+
 There is a tool function to update status update of task/docuemtns in the notion database. however, it doesn't work after mutliple attempts to try and debugg it(using Gemini). This is likely
 because we're using the Notion DataBase to retrieve information and we can only update of we used a Notion Page first; as one of the key things needed to update task in Notion requires a PageID
 and we only have a DataBase ID. 
 
 (There's no demo video for LangGraph RAG Agent, look at code for demonstration and outputs of model)
 Upcoming/Future improvements:
+
 Better Prompt engineering to improve model response and flow
+
 Replace current tool function with a websearch tool function instead.
