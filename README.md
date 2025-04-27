@@ -24,8 +24,7 @@ because we're using the Notion DataBase to retrieve information and we can only 
 and we only have a DataBase ID. 
 
 (There's no demo video for LangGraph RAG Agent, look at code for demonstration and outputs of model)
+
 Upcoming/Future improvements:
-
-Better Prompt engineering to improve model response and flow
-
-Replace current tool function with a websearch tool function instead.
+1. Better Prompt engineering to improve model response and flow
+2. Replace current tool function with a websearch tool function instead.
